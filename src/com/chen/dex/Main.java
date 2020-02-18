@@ -19,24 +19,4 @@ public class Main {
 
     }
 
-//    public static void main(String[] args) {
-//        try {
-//            DexFileReader reader = new DexFileReader(new File("files/classes.dex"));
-//            DexFileNode node = new DexFileNode();
-//            DexFileWriter writer = new DexFileWriter();
-//            reader.accept(node);
-//
-//            DexClassNode clazz = node.clzs.get(reader.getClassSize()-1);
-//
-//            node.accept(writer);
-//            byte[] data = writer.toByteArray();
-//            FileOutputStream out = new FileOutputStream(new File("files/out.dex"));
-//            out.write(data);
-//            out.flush();
-//            out.close();
-//
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//    }
 }
